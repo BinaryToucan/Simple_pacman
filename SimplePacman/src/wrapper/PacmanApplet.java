@@ -13,8 +13,7 @@ import pacman.MainFrame;
 public class PacmanApplet extends Applet
 implements ActionListener
 {
-	//private static final long serialVersionUID = -749993332452315528L;
-
+	
 	private static MainFrame pacMan=null;
 
 	public void init()
