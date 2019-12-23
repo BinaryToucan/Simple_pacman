@@ -132,11 +132,7 @@ public class Ghost
 		}
 
 	}
-	
-	/**
-	 * count available directions
-	 * @return
-	 */
+
 	public int inSelect()
 	{
 		int iM,i,iRand;
@@ -229,7 +225,7 @@ public class Ghost
 			iRand=Utilities.randSelect(iDirTotal);
 			if (iRand>=iDirTotal)
 				throw new Error("iRand out of range");
-			// exit(2);
+
 			for (i=0; i<4; i++)
 			{
 				iM=maze.iMaze[iY/SIZE_ + Resources.iYDirection[i]]
