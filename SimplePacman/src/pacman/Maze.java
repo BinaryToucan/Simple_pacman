@@ -39,7 +39,6 @@ public class Maze
 	// initialize the maze
 	Maze(Window a, Graphics g)
 	{
-		// setup associations
 		applet=a;
 		graphics=g;
 
