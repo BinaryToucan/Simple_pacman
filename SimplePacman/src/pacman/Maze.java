@@ -4,7 +4,6 @@ import java.awt.*;
 
 import static pacman.Resources.SIZE_;
 
-/* define the maze */
 public class Maze
 {
 	// constant definitions
