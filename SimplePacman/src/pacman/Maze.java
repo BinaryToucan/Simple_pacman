@@ -1,4 +1,3 @@
-
 package pacman;
 
 import java.awt.*;
@@ -18,8 +17,8 @@ public class Maze
 	static final int HEIGHT=16;
 	static final int WIDTH=21;
 
-	static final int iHeight=HEIGHT*SIZE_;
-	static final int iWidth=WIDTH*SIZE_;
+	static final int iHeight = HEIGHT*SIZE_;
+	static final int iWidth = WIDTH*SIZE_;
 
 	// the applet the object associate with
 	Window applet;
@@ -94,7 +93,7 @@ public class Maze
 		drawDots();
 	}
 
-	void drawDots()	// on the offscreen
+	void drawDots()
 	{
 		int i,j;
 
