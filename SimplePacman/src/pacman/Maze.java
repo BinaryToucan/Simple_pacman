@@ -1,9 +1,11 @@
+
 package pacman;
 
 import java.awt.*;
 
 import static pacman.Resources.SIZE_;
 
+/* define the maze */
 public class Maze
 {
 	// constant definitions
@@ -16,8 +18,8 @@ public class Maze
 	static final int HEIGHT=16;
 	static final int WIDTH=21;
 
-	static final int iHeight = HEIGHT*SIZE_;
-	static final int iWidth = WIDTH*SIZE_;
+	static final int iHeight=HEIGHT*SIZE_;
+	static final int iWidth=WIDTH*SIZE_;
 
 	// the applet the object associate with
 	Window applet;
@@ -39,6 +41,7 @@ public class Maze
 	// initialize the maze
 	Maze(Window a, Graphics g)
 	{
+		// setup associations
 		applet=a;
 		graphics=g;
 
@@ -91,7 +94,7 @@ public class Maze
 		drawDots();
 	}
 
-	void drawDots()
+	void drawDots()	// on the offscreen
 	{
 		int i,j;
 

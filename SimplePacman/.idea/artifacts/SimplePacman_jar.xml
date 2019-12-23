@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SimplePacman:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimplePacman_jar</output-path>
+    <root id="archive" name="SimplePacman.jar">
+      <element id="module-output" name="SimplePacman" />
+    </root>
+  </artifact>
+</component>
