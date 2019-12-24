@@ -19,7 +19,7 @@ public class Maze
 
 	static final int iHeight=HEIGHT*SIZE_;
 	static final int iWidth=WIDTH*SIZE_;
-	
+
 	Window applet;
 
 	Graphics graphics;

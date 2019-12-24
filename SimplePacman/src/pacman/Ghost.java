@@ -1,4 +1,3 @@
-
 package pacman;
 
 import java.lang.Error;
@@ -28,7 +27,6 @@ public class Ghost
 	static public final int DIR_FACTOR=2;
 	static public final int POS_FACTOR=10;
 
-	// the applet this object is associated to
 	Window applet;
 	Graphics graphics;
 
@@ -168,9 +166,9 @@ public class Ghost
 					if (iRand<0)
 						// the right selection
 					{
-						if (iM== Maze.DOOR)
-							iStatus=OUT;
-						iDir=i;	break;
+						if (iM== Maze.DOOR)  iStatus=OUT;
+						iDir=i;
+						break;
 					}
 				}
 			}
