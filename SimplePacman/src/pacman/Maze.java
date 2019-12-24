@@ -1,4 +1,3 @@
-
 package pacman;
 
 import java.awt.*;
@@ -20,10 +19,9 @@ public class Maze
 
 	static final int iHeight=HEIGHT*SIZE_;
 	static final int iWidth=WIDTH*SIZE_;
-
-	// the applet the object associate with
+	
 	Window applet;
-	// the graphics it will be using
+
 	Graphics graphics;
 
 	// the maze image
